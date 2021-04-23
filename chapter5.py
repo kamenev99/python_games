@@ -29,7 +29,7 @@ def checkCave(chosenCave):
     else:
          print(" ... Вас моментально сьедают ")
 playAgain = "да"
-while playAgain == "да" or playAgain == "д":
+while playAgain.strip() == "да" or playAgain == "д":
     displayIntro()
     caveNumber = chooseCave()
     checkCave(caveNumber)
